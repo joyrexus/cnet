@@ -10,7 +10,7 @@ To test your installation, try authenticating with your CNet user ID and passwor
 
     $ cnet --user rzimmer --password ******
 
-The package has a few dependencies, but will be installed automagically:
+The package has a few dependencies, but these will be installed automagically:
 * [`gopkg.in/ldap.v1`](http://gopkg.in/ldap.v1)
 * [`gopkg.in/asn1-ber.v1`](http://gopkg.in/asn1-ber.v1)
 
@@ -18,7 +18,4 @@ For info on UChicago's LDAP authentication services, see ...
 * [overview](http://answers.uchicago.edu/page.php?id=16242)
 * [authentication](http://answers.uchicago.edu/page.php?id=16242)
 
-I'd like to use this as one piece to RESTful API service requiring
-authentication on protected resources.  For more on how that could be done, see
-[this overview](http://restcookbook.com/Basics/loggingin/) and [this
-article](https://stormpath.com/blog/secure-your-rest-api-right-way/).
+This is intended as one small piece of a RESTful API service requiring authentication on protected resources.  For more on securing REST APIs, see [this overview](http://restcookbook.com/Basics/loggingin/) and [this article](https://stormpath.com/blog/secure-your-rest-api-right-way/).
