@@ -1,3 +1,7 @@
+/* 
+Package cnet contains a simple lib and CLI 
+for authenticating UChicago CNet users
+*/
 package cnet
 
 import (
